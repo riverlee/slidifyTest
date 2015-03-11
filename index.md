@@ -1,0 +1,54 @@
+---
+title       : Make slide with slidify
+subtitle    : Give a shot
+author      : Jiang Li
+job         : Bioinformatician
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax,quiz,bootstrap]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## Slide 1
+
+1. Edit YAML front matter
+2. Write using R Markdown
+3. Use an empty line followed by three dashes to separate slides!
+
+--- .class #definition
+
+## Figure Example
+
+
+```r
+nr<-rnorm(100)
+hist(nr)
+```
+
+![plot of chunk fig](assets/fig/fig-1.png) 
+
+---
+
+## Math formula example
+
+1. First formula: $x^2$
+2. Second formula: $\frac{-b \pm \sqrt{b^2 - 4 a c}}{2a}$
+
+---
+
+
+## Question 1
+
+What is 1 + 1?
+
+1. 1
+2. _2_
+3. 3
+4. 4
+*** .hint 
+This is a hint
+
+*** .explanation 
+This is an explanation
+
